@@ -1,0 +1,98 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		014730DB1BF886A50023B067 /* NP4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = NP4.cpp; sourceTree = "<group>"; };
+		014730DC1BF886A50023B067 /* NP4.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = NP4.hpp; sourceTree = "<group>"; };
+		014730DF1BF88E420023B067 /* Mpu.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Mpu.cpp; sourceTree = "<group>"; };
+		014730E01BF88E420023B067 /* Mpu.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Mpu.hpp; sourceTree = "<group>"; };
+		014730E11BF8985F0023B067 /* JJ_MPU6050_DMP_6Axis.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = JJ_MPU6050_DMP_6Axis.cpp; sourceTree = "<group>"; };
+		014730E21BF8985F0023B067 /* JJ_MPU6050_DMP_6Axis.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JJ_MPU6050_DMP_6Axis.h; sourceTree = "<group>"; };
+		014730E31BF8985F0023B067 /* MPU6050_6Axis_MotionApps20.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPU6050_6Axis_MotionApps20.h; sourceTree = "<group>"; };
+		014730E41BF8985F0023B067 /* MPU6050_9Axis_MotionApps41.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPU6050_9Axis_MotionApps41.h; sourceTree = "<group>"; };
+		014730E51BF8985F0023B067 /* MPU6050.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MPU6050.cpp; sourceTree = "<group>"; };
+		014730E61BF8985F0023B067 /* MPU6050.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPU6050.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		014730D41BF886820023B067 = {
+			isa = PBXGroup;
+			children = (
+				014730DF1BF88E420023B067 /* Mpu.cpp */,
+				014730E01BF88E420023B067 /* Mpu.hpp */,
+				014730DB1BF886A50023B067 /* NP4.cpp */,
+				014730DC1BF886A50023B067 /* NP4.hpp */,
+				014730E71BF898730023B067 /* libs */,
+			);
+			sourceTree = "<group>";
+		};
+		014730E71BF898730023B067 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				014730E11BF8985F0023B067 /* JJ_MPU6050_DMP_6Axis.cpp */,
+				014730E21BF8985F0023B067 /* JJ_MPU6050_DMP_6Axis.h */,
+				014730E31BF8985F0023B067 /* MPU6050_6Axis_MotionApps20.h */,
+				014730E41BF8985F0023B067 /* MPU6050_9Axis_MotionApps41.h */,
+				014730E51BF8985F0023B067 /* MPU6050.cpp */,
+				014730E61BF8985F0023B067 /* MPU6050.h */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		014730D51BF886820023B067 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 014730D81BF886820023B067 /* Build configuration list for PBXProject "NP4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 014730D41BF886820023B067;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		014730D91BF886820023B067 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		014730DA1BF886820023B067 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		014730D81BF886820023B067 /* Build configuration list for PBXProject "NP4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				014730D91BF886820023B067 /* Debug */,
+				014730DA1BF886820023B067 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 014730D51BF886820023B067 /* Project object */;
+}
